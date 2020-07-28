@@ -4,25 +4,20 @@
       "value": 80,
       "density": {
         "enable": true,
-        "value_area": 800
+        "value_area": 60
       }
     },
     "color": {
-      "value": "#ffffff"
+      "value": "#017F35"
     },
     "shape": {
       "type": "circle",
       "stroke": {
         "width": 0,
-        "color": "#000000"
+        "color": "#017F35"
       },
       "polygon": {
-        "nb_sides": 5
-      },
-      "image": {
-        "src": "img/github.svg",
-        "width": 100,
-        "height": 100
+        "nb_sides": 6
       }
     },
     "opacity": {
