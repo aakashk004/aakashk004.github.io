@@ -49,13 +49,14 @@ a.active:hover{
     list-style: square;
 }
 
-#particles-js{
+#particles-js {
+  top: 0px;
+  height: 100%;
   width: 100%;
-    margin: 0;
-    border: 0;
-    height: 220px;
-    z-index: 3;
-  background-color: white;
+  position: fixed;
+  background-color: black;
+  background-size: cover;
+  z-index: -1000;
 }
 
 
