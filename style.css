@@ -51,9 +51,10 @@ a.active:hover{
 
 #particles-js {
   top: 0px;
-  height: 50%;
+  margin: 0;
+  border: 0;
+  height: 220px;
   width: 100%;
-  position: fixed;
   background-color: white;
   z-index: 3;
 }
