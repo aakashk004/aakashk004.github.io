@@ -56,6 +56,15 @@ a.active:hover{
     z-index: 3;
   background-color: white;
 }
+#particles-js {
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background-color: #000000;
+  background-size: cover;
+  z-index: -1000;
+}
 
 .header{
     text-align: center;
