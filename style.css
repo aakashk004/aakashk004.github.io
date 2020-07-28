@@ -118,4 +118,7 @@ a.active:hover{
     #quicklink{
         display: none;
     }
+    #particle-js{
+        display: none;
+    }
 }
