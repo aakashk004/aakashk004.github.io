@@ -1,37 +1,49 @@
 
-.topPage{
-    background: 
-}
 .logo>img{
     width:30%; 
     position: absolute; 
     z-index: 0; 
     opacity: 0.7;
 }
+.navbar-light {
+    background-image: radial-gradient(rgba(30,400,10,0.8),white) !important; 
+    border-radius: 5px !important; 
+    text-decoration-style: none !important;
+    z-index: 5 !important; 
+    font-size: 16px !important; 
+    font-weight: bold !important; 
+    position:relative !important; 
+    height: 50px!important;
+}
+.navbar-brand{
+    color: darkgreen;  
+    text-shadow: 3px 3px greenyellow;
+    font-weight: bold;
+    opacity: 0.7;
+}
+.navbar-brand:hover{
+    font-size: 1.5em;
+}
 .navbar-toggler:active{
-     background-color: white !important;
-    opacity: 0.5;
+     background-color: white!important;
+    opacity: 0.6;
     
 }
 
-.bg-light{
-    font-size: 20px;
-    background: rgba(231,255,206,1)!important; 
-    border-radius: 5px;
-    text-decoration-style: none;
-    z-index: 2;
-}
 .nav-item:hover{
-    background-color: #9db33e;
+    background-image: linear-gradient(greenyellow,forestgreen);
     border-radius: 5px;
     text-decoration-style: none;
+    font-size: 1.1em;
+    
 }
 a.active:hover{
-    color: antiquewhite!important;
+    color: blue !important;
     text-decoration-style: none;
 }
 .body1{
-    border-right: 2px solid rgba(238,238,238,0.2);
+    border-right: 2px solid rgba(238,238,238,0.3);
+    margin-top: 5px;
 }
 .update{
     border: 2px solid rgba(238,238,238,0.7);
@@ -48,6 +60,20 @@ a.active:hover{
 .updateList{
     list-style: square;
 }
+
+#list-tab>a:hover{
+    background: #DFEAE2;
+    
+}
+#list-tab>a{
+    opacity: 0.7;
+}
+.list-group-item.active{
+    background: lightgreen !important;
+    color: black!important;    
+    opacity: 0.7;
+}
+
 
 #particles-js {
   top: 0px;
@@ -113,6 +139,9 @@ a.active:hover{
 	.dropdown-menu > li:hover >.submenu{
 		display: block;
 	}
+    .nav-link{
+        pointer-events: none;
+    }
 }
 @media (max-width: 767px){
     #quicklink{
@@ -120,5 +149,8 @@ a.active:hover{
     }
     #particles-js{
         display: none;
+    }
+    .navbar{
+        height: auto !important;
     }
 }

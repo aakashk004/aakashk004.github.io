@@ -1,15 +1,19 @@
+
+
+if ($(window).width() < 768){
 $(document).on('click', '.dropdown-menu', function (e) {
   e.stopPropagation();
 });
+}
 
 // make it as accordion for smaller screens
-if ($(window).width() < 800) {
+if ($(window).width() < 768) {
   $('.dropdown-menu a').click(function(e){
     e.preventDefault();
       if($(this).next('.submenu').length){
         $(this).next('.submenu').toggle();
       }
-      $('.dropdown').on('hide.bs.dropdown', function () {
+      $('.dropdown').on('show.bs.dropdown', function () {
      $(this).find('.submenu').hide();
   })
   });
