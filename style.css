@@ -54,7 +54,7 @@ a.active:hover{
   height: 100%;
   width: 100%;
   position: fixed;
-  background-color: #000000;
+  background-color: white;
   background-size: cover;
   z-index: -1000;
 }
