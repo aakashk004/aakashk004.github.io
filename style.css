@@ -210,10 +210,12 @@ a.active:hover{
     #quicklink{
         display: none;
     }
-    #particles-js{
-        display: none;
-    }
+    
     .navbar{
         height: auto !important;
     }
+    .logo>img{
+   margin-left: 20%;
+    margin-right: 30%;
+    width: 60%    
 }
