@@ -216,4 +216,7 @@ a.active:hover{
     .navbar{
         height: auto !important;
     }
+    .bottomLogo>img{
+        padding-right: 0;
+    }
 }
