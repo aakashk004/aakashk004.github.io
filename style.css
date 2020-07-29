@@ -242,6 +242,9 @@ a.active:hover{
         padding: 0;
         display: inline-flex;
     }
+    #particles-js{
+        display: none;
+    }
 }
 @media (max-width: 768px)
 {
