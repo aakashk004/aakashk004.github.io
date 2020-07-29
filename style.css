@@ -6,7 +6,7 @@
     opacity: 0.7;
 }
 .navbar-light {
-    background-image: radial-gradient(rgba(30,400,10,0.8),white) !important; 
+    background-image: radial-gradient(#fdA50F,#ffbf00) !important; 
     border-radius: 5px !important; 
     text-decoration-style: none !important;
     z-index: 5 !important; 
