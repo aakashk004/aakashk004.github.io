@@ -1,8 +1,8 @@
 
 .logo>img{
-    width:24%; 
+    width:auto; 
     position: absolute;
-    height: inherit;
+    height: 100%;
     z-index: 5; 
     opacity: 1;
    margin-left: 38%;
