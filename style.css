@@ -174,7 +174,7 @@ a.active:hover{
 
 
 
-@media (min-width: 768px){
+@media (min-width: 992px){
 	.dropdown-menu .dropdown-toggle:after{
 		border-top: .3em solid transparent;
 	    border-right: 0;
@@ -205,8 +205,11 @@ a.active:hover{
     .nav-link{
         pointer-events: none;
     }
+    .mobileLogo{
+        display: none;
+    }
 }
-@media (max-width: 767px){
+@media (max-width: 992px){
     #quicklink{
         display: none;
     }
@@ -220,4 +223,29 @@ a.active:hover{
         margin-top: 15%;
     width: 30%;
     height: 45%;
+}
+    .bottomLogo{
+     display: none;
+}
+    .mobileLogo{
+       width: 60%; height: 80%; 
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+
+@media (max-width: 300px)
+{
+   .emailId{
+       display: none;
+    }
+    .email{
+        margin: 0;
+    }
+    .s_media>li>{
+        margin: 0;
+        border: 0;
+        padding: 0;
+        display: inline-flex;
+    }
 }
