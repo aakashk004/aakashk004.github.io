@@ -217,13 +217,7 @@ a.active:hover{
     .navbar{
         height: auto !important;
     }
-    .logo>img{
-   margin-left: 35%;
-    margin-right: 35%;
-        margin-top: 15%;
-    width: 30%;
-    height: 45%;
-}
+     
     .bottomLogo{
      display: none;
 }
@@ -248,4 +242,14 @@ a.active:hover{
         padding: 0;
         display: inline-flex;
     }
+}
+@media (max-width: 768px)
+{
+    .logo>img{
+   margin-left: 35%;
+    margin-right: 35%;
+        margin-top: 15%;
+    width: 30%;
+    height: 45%;
+}
 }
